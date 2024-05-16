@@ -33,6 +33,10 @@
             "Addeeandra\\Droplets\\Tests\\": "tests/"
         }
     },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always",
+        "test-coverage": "vendor/bin/phpunit --coverage-clover coverage.xml"
+    },
     "extra": {
         "laravel": {
             "providers": [
