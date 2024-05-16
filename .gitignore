@@ -1,0 +1,8 @@
+/.phpunit.result.cache
+/.env
+/.env.test
+
+/.idea
+/vendor
+
+*.test.json
